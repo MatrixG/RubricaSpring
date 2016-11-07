@@ -30,7 +30,7 @@
 		<!-- Drop and re-create the database schema on startup -->
 		<property name="hbm2ddl.auto">update</property>
 		
-		<mapping class="it.alfasoft.gruppo.model.Utente" />
+		<mapping class="it.alfasoft.gruppo.model.Rubrica" />
 		<mapping class="it.alfasoft.gruppo.model.Voce" />
 	</session-factory>
 </hibernate-configuration>
