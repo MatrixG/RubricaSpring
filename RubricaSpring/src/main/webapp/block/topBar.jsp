@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ page import="it.alfasoft.bean.Utente"%>
 
-<%-- <%= ((Utente)session.getAttribute("utente")).getNome() %> --%>
 <!-- topbar starts -->
     <div class="navbar navbar-default" role="navigation">
 
@@ -19,7 +17,7 @@
             <!-- user dropdown starts -->
             <div class="btn-group pull-right">
                 <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs">&nbsp;&nbsp;<%= ((Utente)session.getAttribute("utente")).getNome() %>&nbsp;&nbsp;</span>
+                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs">&nbsp;&nbsp;User</span>
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
